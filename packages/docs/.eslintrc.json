@@ -1,0 +1,3 @@
+{
+    "extends":"@mvs-ui/eslint-config"
+}
