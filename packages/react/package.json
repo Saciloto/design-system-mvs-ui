@@ -14,9 +14,6 @@
   "author": "saciloto",
   "license": "MIT",
   "devDependencies": {
-    "@mvs-ui/eslint-config": "*",
-    "@mvs-ui/tokens": "*",
-    "@mvs-ui/ts-config": "*",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
@@ -24,7 +21,11 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@mvs-ui/eslint-config": "*",
+    "@mvs-ui/tokens": "*",
+    "@mvs-ui/ts-config": "*",
     "@radix-ui/react-avatar": "^1.0.2",
+    "@radix-ui/react-checkbox": "^1.0.4",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1"
   }
