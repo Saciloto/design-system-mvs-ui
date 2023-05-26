@@ -4,13 +4,18 @@ import { Box, BoxProps, Text } from '@mvs-ui/react'
 export default {
   title: 'Surfaces/Box',
   component: Box,
-
+  tags: ['autodocs'],
   args: {
     children: (
       <>
         <Text>Testing Box</Text>
       </>
     ),
+  },
+  argTypes: {
+    children: {
+      control: { type: null },
+    },
   },
 } as Meta<BoxProps>
 

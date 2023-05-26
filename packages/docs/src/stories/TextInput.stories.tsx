@@ -4,7 +4,7 @@ import { Box, Text, TextInput, TextInputProps } from '@mvs-ui/react'
 export default {
   title: 'Form/TextInput',
   component: TextInput,
-
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {
