@@ -16,7 +16,7 @@ const config = {
   },
   viteFinal:(config,{configType})=>{
     if(configType === 'PRODUCTION'){
-      config.base = '/design-system-mvs-ui'
+      config.base = '/design-system-mvs-ui/'
     }
     return config;
   }
