@@ -1,5 +1,7 @@
-/** @type { import('@storybook/react-vite').StorybookConfig } */
-const config = {
+/** @type { import('@storybook/react').StorybookConfig } */
+/** @type { import('@storybook/builder-vite').StorybookConfig } */
+
+const config  = {
   stories: ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.tsx"],
   addons: [
     "@storybook/addon-links",
@@ -8,8 +10,11 @@ const config = {
     '@storybook/addon-a11y'
   ],
   framework: {
-    name: "@storybook/react-vite",
+    name: "@storybook/react",
     options: {},
+  },
+  core: {
+    builder: "@storybook/builder-vite"
   },
   docs: {
     autodocs: "tag",
